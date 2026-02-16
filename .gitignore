@@ -1,0 +1,48 @@
+# =========================
+# Build folders
+# =========================
+bin/
+obj/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Rider / VS Code (optional)
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# ASP.NET generated files
+# =========================
+project.assets.json
+project.nuget.cache
+*.nuget.g.props
+*.nuget.g.targets
+*.cache
+*.generated.*
+*.AssemblyInfo.cs
+*.GlobalUsings.g.cs
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Publish output
+# =========================
+publish/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db

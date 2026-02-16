@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="Trainova.Api/Trainova.Api.csproj" />
+  <Project Path="Trainova.Application/Trainova.Application.csproj" />
+  <Project Path="Trainova.Domain/Trainova.Domain.csproj" />
+  <Project Path="Trainova.Infrastructure/Trainova.Infrastructure.csproj" />
+</Solution>
