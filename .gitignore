@@ -46,3 +46,8 @@ publish/
 # =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# AppSettings / secrets
+# =========================
+**/appsettings*.json
