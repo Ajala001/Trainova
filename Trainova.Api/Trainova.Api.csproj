@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Trainova.Application\Trainova.Application.csproj" />
-    <ProjectReference Include="..\Trainova.Infrastructure\Trainova.Infrastructure.csproj" />
+    <ProjectReference Include="..\Trainova.Infrastructure\Trainova.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>

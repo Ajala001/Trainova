@@ -6,7 +6,8 @@
     <Project Path="Trainova.Api/Trainova.Api.csproj" />
     <Project Path="Trainova.Application/Trainova.Application.csproj" />
     <Project Path="Trainova.Domain/Trainova.Domain.csproj" />
-    <Project Path="Trainova.Infrastructure/Trainova.Infrastructure.csproj" />
+    <Project Path="Trainova.Infrastructure/Trainova.Infrastructure.csproj" Id="4a9f417d-5d8f-4267-bacc-df0cc99466e9" />
+    <Project Path="Trainova.Persistence/Trainova.Persistence.csproj" Id="5505796c-ee1e-4c62-9bcb-27c97a18f64b" />
   </Folder>
   <Folder Name="/test/" />
 </Solution>

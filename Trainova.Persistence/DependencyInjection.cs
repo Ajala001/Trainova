@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Trainova.Infrastructure
+namespace Trainova.Persistence
 {
-    public class DependencyInjection
+    internal class DependencyInjection
     {
     }
 }

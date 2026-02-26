@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Trainova.Infrastructure.Identity
+namespace Trainova.Persistence.Identity
 {
     public class ApplicationUser : IdentityUser<Guid>
     {
