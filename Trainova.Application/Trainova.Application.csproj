@@ -7,9 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Attendances\Create\" />
+    <Folder Include="Attendances\Delete\" />
     <Folder Include="Enrollments\Create\" />
     <Folder Include="Enrollments\Delete\" />
     <Folder Include="Enrollments\GetEnrollment\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trainova.Domain\Trainova.Domain.csproj" />
   </ItemGroup>
 
 </Project>
