@@ -2,23 +2,22 @@
 {
     public abstract class BaseEntity
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
-        public string? CreatedBy { get; set; }
-        public DateTime? CreatedOn { get; set; }
-        public string? ModifiedBy { get; set; }
-        public DateTime? ModifiedOn { get; set; }
+        public Guid Id { get; set; }
+        public string CreatedBy { get; private set; } = string.Empty;
+        public DateTime CreatedAt { get; private set; }
+        public string? ModifiedBy { get; private set; }
+        public DateTime? ModifiedOn { get; private set; }
 
-
-        protected void CreateDetails(string email, DateTime dateCreated)
+        public void SetCreated(string email)
         {
             CreatedBy = email;
-            CreatedOn = dateCreated;
+            CreatedAt = DateTime.UtcNow;
         }
 
-        protected void ModifyDetails(string email, DateTime dateModified)
+        public void SetModified(string email)
         {
             ModifiedBy = email;
-            ModifiedOn = dateModified;
+            ModifiedOn = DateTime.UtcNow;
         }
     }
 }

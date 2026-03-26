@@ -2,14 +2,14 @@
 
 namespace Trainova.Domain.Attendances
 {
-    public class Attendance(Guid trainingId, Guid userId, DateOnly date) : BaseEntity
+    public class Attendance(Guid trainingId, Guid personId, DateOnly date) : BaseEntity
     {
         public Guid TrainingId { get; private set; } = trainingId;
-        public Guid UserId { get; private set; } = userId;
+        public Guid PersonId { get; private set; } = personId;
 
         public DateOnly Date { get; private set; } = date;
 
-        public bool IsPresent { get; private set; }
+        public bool IsPresent { get; private set; } = false;
 
         public void MarkPresent()
         {

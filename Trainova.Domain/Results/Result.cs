@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using Trainova.Domain.Common;
+﻿using Trainova.Domain.Common;
 
 namespace Trainova.Domain.Results
 {

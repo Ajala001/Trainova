@@ -1,4 +1,5 @@
 ﻿using Trainova.Domain.Common;
+using Trainova.Domain.Payment;
 
 namespace Trainova.Domain.Payments
 {

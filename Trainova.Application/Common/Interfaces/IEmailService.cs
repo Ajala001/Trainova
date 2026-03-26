@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Trainova.Domain.Trainings
+namespace Trainova.Application.Common.Interfaces
 {
-    public enum TrainingStatus
+    internal class IEmailService
     {
     }
 }
